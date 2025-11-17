@@ -1,7 +1,7 @@
 E‑Commerce Analytics Project
 A complete end‑to‑end data analytics solution built using Python, MySQL, Streamlit, and Power BI. This project demonstrates how to clean raw e‑commerce data, load it into a SQL database, generate insights, create interactive dashboards, and manage the workflow using GitHub.
 ________________________________________
-1. Project Overview
+1.Project Overview
 This project analyzes e‑commerce transactions to extract insights such as: - Revenue trends - Customer behavior - Product‑level performance - Geographic distribution of sales - Time‑based patterns
 It includes: - Data Cleaning & Preprocessing - Database Setup in MySQL - Automated Data Loading Scripts - Interactive Streamlit Dashboard - Power BI Live Dashboard - Mock Data Generation for Testing
 ________________________________________
@@ -78,10 +78,7 @@ To launch:
 streamlit run scripts/dashboard.py
 Features: - Interactive revenue charts - Product & customer filters - Time‑based trend visualizations
 ________________________________________
-11. Power BI Dashboard (Optional)
-You can connect Power BI directly to MySQL using the MySQL connector. Dashboard includes: - Real‑time sales trends - Customer segmentation - Geo‑based revenue heatmaps - Profitability analysis
-________________________________________
-12. GitHub Version Control Workflow
+11. GitHub Version Control Workflow
 Stage changes:
 git add .
 Commit changes:
@@ -89,20 +86,15 @@ git commit -m "Updated dashboard and README"
 Push to GitHub:
 git push
 ________________________________________
-13. .gitignore Included
+14. .gitignore Included
 Project ignores: - .venv/ - __pycache__/ - .DS_Store - .ipynb_checkpoints - Secrets & temp files
 ________________________________________
-14. License
+15. License
 This project is released under the MIT License.
 ________________________________________
-15. Author
-Bhargav
-Data Analyst & Developer
+16. Author
+Bhargav Ummireddi
 GitHub: https://github.com/Bhargav054
-________________________________________
-16. Contribution Guidelines
-Contributions are welcome!
-Fork → Edit → Pull Request.
 ________________________________________
 17. Future Enhancements
 •	ML‑powered revenue forecasting
