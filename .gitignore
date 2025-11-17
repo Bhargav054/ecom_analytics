@@ -1,24 +1,46 @@
-# Virtual environments
+# ------------------------
+# Python / Virtual Env
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.env
 .venv/
 venv/
+env/
 
-# Python cache
-__pycache__/
-*.pyc
+# ------------------------
+# Streamlit cache
+# ------------------------
+.streamlit/
 
-# Environment files
-.env
+# ------------------------
+# Jupyter & VS Code
+# ------------------------
+.ipynb_checkpoints/
+.vscode/
 
-# OS / Editor files
+# ------------------------
+# OS Files
+# ------------------------
 .DS_Store
 Thumbs.db
 
-# Streamlit cache
-.streamlit/
-
-# MySQL dumps/logs
-*.sql
+# ------------------------
+# Logs
+# ------------------------
 *.log
 
-# Ignore dataset backups if any
-/data/*.bak
+# ------------------------
+# MySQL credentials (if any)
+# ------------------------
+*.cnf
+*.env
+
+# ------------------------
+# Compiled files
+# ------------------------
+*.sqlite3
