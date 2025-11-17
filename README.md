@@ -39,26 +39,28 @@ It transforms raw E-commerce sales data into insights such as:
  (real-time analytics)               (business intelligence)
 
 📁 Folder Structure
-ecom-analytics/
+ecom_analytics/
 │
 ├── data/
 │   └── ecom_dataset.csv
 │
 ├── scripts/
-│   ├── load_dataset.py
 │   ├── load_to_mysql.py
 │   ├── analyze_views.py
 │   ├── dashboard.py
-│   ├── test_mysql_conn.py
 │   ├── generate_mock_sales.py
-│   └── check_dataset_quality.py
+│   ├── check_dataset_quality.py
+│   └── test_mysql_conn.py
 │
-├── mysqlworkbench/
-│   ├── db creation.txt
-│   └── user privileges.txt
+├── mysql/
+│   ├── db_creation.sql
+│   ├── schema_design.md
+│   └── privileges_setup.md
 │
 ├── README.md
+├── LICENSE
 └── requirements.txt
+
 
 🛠️ Tech Stack
 Category	Tools Used
